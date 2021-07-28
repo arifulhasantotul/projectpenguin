@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- tailwind css  -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <!-- favicon  -->
+    <link rel="shortcut icon" href="images/icons/fav.png" type="image/x-icon">
+
+    <!-- vanilla css  -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Penguin</title>
+</head>
+<body>
+
+    <!-- header start  -->
+    <header class="bg-yellow-50">
+
+        <!-- container start  -->
+        <div class="container w-5/6 mx-auto">
+            
+            <!-- navbar start  -->
+            <nav class="flex justify-between pt-10">
+                <div class="navbar-brand w-2/5 lg:w-1/5 ">
+                    <img src="images/icons/logo.png" alt="">
+                </div>
+    
+                <ul class="hidden lg:flex justify-evenly w-3/5">
+                    <li><a href="#">Home </a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+    
+                <!-- toggle button start  -->
+                <div class="toggle lg:hidden">
+                    <button class="btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z" />
+                        </svg>
+                    </button>
+                    <div class="dropdown_content mt-8">
+                        <a href="#">Home </a>
+                        <a href="#">Product</a>
+                        <a href="#">About Us</a>
+                        <a href="#">Contact</a>
+                    </div>
+                </div>
+                <!-- toggle button end  -->
+            </nav>
+            <!-- navbar end  -->
+    
+            <!-- banner start  -->
+            <section class="banner grid grid-cols-1 lg:grid-cols-2 items-center mt-16">
+    
+                <!-- left div start  -->
+                <div class="left_div mx-auto lg:mx-0">
+                    <h1 class="text-7xl text-yellow-300 mb-3">BE THE PENGUINS <br> <span class="text-gray-600">OF WINTER</span></h1>
+                    <p class="text-gray-700 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Ad expedita quasi laborum sequi iure dicta.</p>
+                    <button type="submit" class="buy text-sm px-5 py-3 uppercase text-white rounded-xl">
+                        <!-- bag icon  -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6 pb-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                        </svg>
+                        Buy Now
+                    </button>
+                </div>
+                <!-- left div end  -->
+    
+                <!-- right div start  -->
+                <div class="right_div mx-auto">
+                    <img src="images/icons/model.png" alt="">
+                </div>
+                <!-- right div end  -->
+    
+            </section>
+            <!-- banner end  -->
+
+        </div>
+        <!-- container end  -->
+
+    </header>
+    <!-- header end  -->
+
+    <!-- main start  -->
+    <main class="product">
+
+        <!-- container start -->
+        <section class="container w-5/6 mx-auto">
+
+            <!-- woman jacket start  -->
+            <div class="jacket">
+                <h2 class="text-5xl text-gray-600 py-12">WOMEN JACKET</h2>
+
+                <!-- grid start  -->
+                <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+                    <div class="flex flex-col justify-center rounded-2xl p-4 sdw">
+
+                        <!-- image --> 
+                        <img class="bg-gray-100 rounded-xl" src="images/jacket/jacket-1.png" alt="">
+    
+                        <!-- img description -->
+                        <div class="details py-2">
+    
+    
+                            <h4 class="text-gray-700 text-2xl">Yellow Coat Jacket</h4>
+                            <p class="text-gray-600 py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, vel.</p>
+
+                            <div class="flex justify-between items-center">
+
+                                <h4 class="text-4xl text-yellow-300">$234</h4>
+                                <button type="submit" class="buy text-sm px-5 py-3 uppercase text-white rounded-xl">
+                                    <!-- bag icon  -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6 pb-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                                    </svg>
+                                    Buy Now
+                                </button>
+
+                            </div>
+    
+                        </div>
+
+                    </div>
+                    
+
+                    <div class="flex flex-col justify-center rounded-2xl p-4 sdw">
+
+                        <!-- image --> 
+                        <img class="bg-gray-100 rounded-xl" src="images/jacket/jacket-2.png" alt="">
+    
+                        <!-- img description -->
+                        <div class="details py-2">
+    
+    
+                            <h4 class="text-gray-700 text-2xl">Ladies Jacket</h4>
+                            <p class="text-gray-600 py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, vel.</p>
+
+                            <div class="flex justify-between items-center">
+
+                                <h4 class="text-4xl text-yellow-300">$234</h4>
+                                <button type="submit" class="buy text-sm px-5 py-3 uppercase text-white rounded-xl">
+                                    <!-- bag icon  -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6 pb-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                                    </svg>
+                                    Buy Now
+                                </button>
+
+                            </div>
+    
+                        </div>
+
+                    </div>
+                    
+
+                    <div class="flex flex-col justify-center rounded-2xl p-4 sdw">
+
+                        <!-- image --> 
+                        <img class="bg-gray-100 rounded-xl" src="images/jacket/jacket-3.png" alt="">
+    
+                        <!-- img description -->
+                        <div class="details py-2">
+    
+    
+                            <h4 class="text-gray-700 text-2xl">Women Leather Jacket</h4>
+                            <p class="text-gray-600 py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, vel.</p>
+
+                            <div class="flex justify-between items-center">
+
+                                <h4 class="text-4xl text-yellow-300">$234</h4>
+                                <button type="submit" class="buy text-sm px-5 py-3 uppercase text-white rounded-xl">
+                                    <!-- bag icon  -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6 pb-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                                    </svg>
+                                    Buy Now
+                                </button>
+
+                            </div>
+    
+                        </div>
+
+                    </div>
+                    
+
+                </div>
+                <!-- grid end  -->
+
+            </div>
+            <!-- woman jacket end  -->
+
+        </section>
+        <!-- container end -->
+
+        <!-- container start -->
+        <section class="container w-5/6 mx-auto">
+
+            <!-- woman jacket start  -->
+            <div class="jacket">
+                <h2 class="text-5xl text-gray-600 py-12">MAN JACKET</h2>
+
+                <!-- grid start  -->
+                <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+                    <div class="flex flex-col justify-center rounded-2xl p-4 sdw">
+
+                        <!-- image --> 
+                        <img class="bg-gray-100 rounded-xl" src="images/jacket/jacket-4.png" alt="">
+    
+                        <!-- img description -->
+                        <div class="details py-2">
+    
+    
+                            <h4 class="text-gray-700 text-2xl">Man SnowBoard Jacket</h4>
+                            <p class="text-gray-600 py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, vel.</p>
+
+                            <div class="flex justify-between items-center">
+
+                                <h4 class="text-4xl text-yellow-300">$234</h4>
+                                <button type="submit" class="buy text-sm px-5 py-3 uppercase text-white rounded-xl">
+                                    <!-- bag icon  -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6 pb-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                                    </svg>
+                                    Buy Now
+                                </button>
+
+                            </div>
+    
+                        </div>
+
+                    </div>
+                    
+
+                    <div class="flex flex-col justify-center rounded-2xl p-4 sdw">
+
+                        <!-- image --> 
+                        <img class="bg-gray-100 rounded-xl" src="images/jacket/jacket-5.png" alt="">
+    
+                        <!-- img description -->
+                        <div class="details py-2">
+    
+    
+                            <h4 class="text-gray-700 text-2xl">Man Leather Jacket</h4>
+                            <p class="text-gray-600 py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, vel.</p>
+
+                            <div class="flex justify-between items-center">
+
+                                <h4 class="text-4xl text-yellow-300">$234</h4>
+                                <button type="submit" class="buy text-sm px-5 py-3 uppercase text-white rounded-xl">
+                                    <!-- bag icon  -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6 pb-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                                    </svg>
+                                    Buy Now
+                                </button>
+
+                            </div>
+    
+                        </div>
+
+                    </div>
+                    
+
+                    <div class="flex flex-col justify-center rounded-2xl p-4 sdw">
+
+                        <!-- image --> 
+                        <img class="bg-gray-100 rounded-xl" src="images/jacket/jacket-3.png" alt="">
+    
+                        <!-- img description -->
+                        <div class="details py-2">
+    
+    
+                            <h4 class="text-gray-700 text-2xl">Man Casual Jacket</h4>
+                            <p class="text-gray-600 py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, vel.</p>
+
+                            <div class="flex justify-between items-center">
+
+                                <h4 class="text-4xl text-yellow-300">$234</h4>
+                                <button type="submit" class="buy text-sm px-5 py-3 uppercase text-white rounded-xl">
+                                    <!-- bag icon  -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="inline h-6 w-6 pb-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                                    </svg>
+                                    Buy Now
+                                </button>
+
+                            </div>
+    
+                        </div>
+
+                    </div>
+                    
+
+                </div>
+                <!-- grid end  -->
+
+            </div>
+            <!-- woman jacket end  -->
+
+        </section>
+        <!-- container end -->
+
+    </main>
+    <!-- main end  -->
+
+    <!-- footer start  -->
+    <footer class="service py-40">
+
+        <section class="container w-5/6 mx-auto">
+
+            <!-- grid start  -->
+            <div class="grid grid-rows-3 xl:grid-cols-2 lg:grid-cols-1">
+
+                <!-- 1st grid  -->
+                <div class="flex items-center flex-wrap">
+                    <img class="w-20 h-20 mt-4 mx-auto md:mx-0" src="images/icons/image 12.png" alt="">
+                    <div class="pl-4 leading-9">
+                        <h5 class="text-center text-gray-700 lg:text-left">Find the perfect fit</h5>
+                        <p class="text-center text-gray-700 lg:text-left">Everybody is different, which is why we offer styles for every body.</p>
+                    </div>
+                </div>
+
+                <!-- 2nd grid  -->
+                <div class="row-span-3 order-first lg:order-last xl:order-none">
+                    <img src="images/icons/shopping.png" alt="">
+                </div>
+
+                <!-- 3rd grid  -->
+                <div class="flex items-center flex-wrap">
+                    <img class="w-20 h-20 mt-4 mx-auto md:mx-0" src="images/icons/image 13.png" alt="">
+                    <div class="pl-4 leading-9">
+                        <h5 class="text-center text-gray-700 ;lg:text-left">Free Exchanges</h5>
+                        <p class="text-center text-gray-700 lg:text-left">One of many reason you can shop with a peace of mind, enjoy yourself</p>
+                    </div>
+                </div>
+                
+
+                <!-- 4th grid  -->
+                <div class="flex items-center flex-wrap">
+                    <img class="w-20 h-20 mt-4 mx-auto md:mx-0" src="images/icons/image 14.png" alt="">
+                    <div class="pl-4 leading-9">
+                        <h5 class="text-center text-gray-700 lg:text-left">Contact Our Seller</h5>
+                        <p class="text-center text-gray-700 lg:text-left">They are here to help you. That's quite literally what we pay them for.</p>
+                    </div>
+                </div>
+            <!-- grid end  -->
+
+        </section>
+
+    </footer>
+    <!-- footer end  -->
+    
+</body>
+</html>
